@@ -1,0 +1,80 @@
+/* complain.css */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+
+
+* {
+
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+h1 {
+  color: rgb(14, 14, 14);
+  text-align: center;
+}
+
+.student-form {
+  background-color: #ffffff;
+  padding: 20px;
+  
+
+}
+
+.error {
+  color: #c0392b;
+}
+
+.selected-files {
+  margin-bottom: 20px;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.file-list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.file-list .remove {
+  display: grid;
+  place-items: center;
+  color: #c0392b;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.file-list .remove:hover {
+  color: #e74c3c;
+}
+
+.file-upload-box {
+  padding: 20px;
+  border: 2px dashed #cacaca;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-upload-box h4 {
+  margin: 0;
+}
+
+.small-text {
+  font-size: 12px;
+  color: #a3a3a3;
+}
+fieldset {
+  border: none;
+}
